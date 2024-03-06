@@ -1,0 +1,2 @@
+Para usarlo arrastra los archivos correspondientes a la carpeta de tu juego y ejecuta el SetupESP.exe
+Despues sigue las instrucciones que se indican en el Programa 
