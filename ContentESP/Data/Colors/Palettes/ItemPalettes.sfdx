@@ -1,1 +1,42 @@
-
+// inserting unique colors into a palette (r,g,b) or (r,g,b,a) instead of color-id only
+colorPalette(Skin){
+	colors1=Skin1,Skin2,Skin3,Skin4,Skin5,ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+			ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+			ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,ClothingWhite,ClothingBlack; 
+	colors2=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+			ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+			ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+	colors3=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;}
+colorPalette(Clothing1) { colors1=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			  colors2=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			  colors3=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			}
+colorPalette(ClothingGoggles1){ colors1=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			  	colors2=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			  	colors3=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			}
+colorPalette(ClothingDark1) { colors1=ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,
+				  ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			      colors2=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			      colors3=ClothingLightGray,ClothingLightPink,ClothingLightRed,ClothingLightOrange,ClothingLightYellow,ClothingLightGreen,ClothingLightCyan,ClothingLightBlue,ClothingLightPurple,ClothingLightBrown,
+				  ClothingGray,ClothingPink,ClothingRed,ClothingOrange,ClothingYellow,ClothingGreen,ClothingCyan,ClothingBlue,ClothingPurple,ClothingBrown,
+				  ClothingDarkGray,ClothingDarkPink,ClothingDarkRed,ClothingDarkOrange,ClothingDarkYellow,ClothingDarkGreen,ClothingDarkCyan,ClothingDarkBlue,ClothingDarkPurple,ClothingDarkBrown,Skin1,Skin2,Skin3,Skin4,Skin5,ClothingWhite,ClothingBlack;
+			}
+			
